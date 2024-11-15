@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+html {
+	font-size: 100%;
+	font-family: 'Jost', system-ui;
+}
+    
+body {
+        background-color: #2f2f2f;
+        background: url('/laba_html3/img/background.png') no-repeat center center fixed;
+}
+    
+.container {
+        width: 1024px;
+        margin: 0 auto;
+        padding: 20px;
+}
+    
+header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 20px;
+        margin-top: 240px;
+}
+    
+.logo {
+        font-size: 28px;
+        font-weight: bold;
+}
+    
+.contact p {
+        margin: 0;
+        text-align: right;
+}
+    
+main {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-top: 20px;
+}
+    
+.tour-grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 20px;
+}
+    
+.tour-item {
+        text-align: center;
+        padding: 10px;
+        border-radius: 8px;
+}
+    
+.tour-item img {
+        width: 100%;
+        height: auto;
+        border-radius: 5px;
+}
+    
+.tour-item p {
+        margin-top: 10px;
+        font-size: 18px;
+}
+    
+footer {
+        text-align: center;
+        margin-top: 20px;
+        font-size: 12px;
+}
+
+p{
+    color: #fff;
+}
+
+.cop{
+    margin-top: 90px;
+}
+
+
+/* Моя индивидуальность*/
+.tour-item {
+    text-align: center;
+    padding: 10px;
+    border-radius: 8px;
+    position: relative; 
+    background-color: transparent; 
+    transition: transform 0.3s ease-in-out;
+}
+
+.tour-item:hover {
+    transform: scale(1.05); 
+}
+
+
+.tour-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    display: block;
+}
+
+
+.tour-item p {
+    margin-top: 10px;
+    font-size: 18px;
+    color: #fff; 
+}
+
+
+.tour-item .price-tag {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: #FF6600; 
+    padding: 5px 10px;
+    color: #fff; 
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 4px;
+}
+
+
+.tour-item .view-details {
+    position: absolute;
+    bottom: 50px; 
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #FF6600; 
+    padding: 10px 15px;
+    color: #fff; 
+    font-size: 16px;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.tour-item .view-details:hover {
+    background-color: #e55b00; 
+}
+
+.tour-item a {
+    text-decoration: none;
+    color: inherit; /
+}
+
+
+.tour-item a:hover {
+    text-decoration: none;
+}
+
