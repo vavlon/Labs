@@ -1,0 +1,135 @@
+@font-face {
+    font-family:roboto;
+    src:url(./fonts/roboto/Roboto-Regular.ttf);
+}    
+body{
+    font-family: roboto;
+}
+.logo{
+    display: flex;
+}
+.main-menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #35444f;
+    align-items: center;
+}
+
+.menu-item {
+  display: inline-block;    
+}
+
+.menu-item a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.menu-item a:hover {
+  background-color: #222f3a;
+}
+header{
+    text-align: left;
+}
+body{
+     max-width: 1280px;
+    margin: auto;
+}
+nav{
+    text-align: center;
+    align-items: center;
+}
+span{    
+    font-size: 42px;
+}
+.content{
+    margin: auto;
+    display: flex;
+    padding: 20px;
+    
+}
+.side{
+    display: inline-block;
+    width: 400px;
+    vertical-align: top;
+    text-align: center;
+    border: 1px solid #35444f;
+    height: 100%;
+}
+.content-center{
+    display: inline-block;
+    vertical-align: top;
+    width: calc(100% - 400px);
+    padding-left: 20px;
+}
+p{
+    width: auto;
+    padding-top: 10px;
+    color: #2c2c2c;
+}
+.image{
+    text-align: center;
+    align-content: center;
+    border: 1px solid #35444f;
+    padding: 10px; 
+}
+.image  {
+    transition: transform 0.3s ease-in-out;
+    background-color: white;
+}
+.image:hover {
+    transform: scale(1.2);
+}
+.side-menu{
+    list-style-type: none;
+    margin:0;
+    padding: 0;
+}
+.side-item a{
+  display: block;
+  color: #495863;
+  text-align: left;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.side-item a:hover {
+  background-color: #dbdbdb;
+    color: black;
+}
+footer{
+    width: 1280px;
+    background-color: #b4b7ba;
+    color: black;
+    
+}
+.bottom-menu{
+    text-align: left;
+    display: inline-block;
+}
+.bot-menu{
+    display: inline-block;
+}
+.bot-item{
+    display: inline-block;
+}
+.bot-item a{
+    color:#0c1927;
+    text-decoration: none;
+}
+.bot-item a:hover{
+    color:#3181a6;
+    text-decoration: underline;
+}
+.copyright{
+    font-size: 14px;
+    float: right;
+    padding-right: 20px
+}
+
+
+
+
